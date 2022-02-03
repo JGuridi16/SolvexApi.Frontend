@@ -27,7 +27,7 @@ export default {
   methods: {
     ...mapActions(["removeCity"]),
     deleteCity() {
-      //this.removeCity(this.city)
+      this.removeCity(this.city)
       this.notification = 'City deleted successfully'
     },
     handleSelectedCity(city) {

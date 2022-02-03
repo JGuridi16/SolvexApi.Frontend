@@ -32,7 +32,8 @@ export default {
   mapGetters(['allCities']),
   created() {
     this.fetchCities()
-  }
+  },
+  mixins: []
 }
 </script>
 
